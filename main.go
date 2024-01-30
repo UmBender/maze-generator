@@ -25,8 +25,8 @@ const (
 
 func main() {
 	land := Land{}
-	land.length = 30
-	land.height = 30
+	land.length = 10
+	land.height = 10
 	land.visited_cells = 0
 	land.cells = make([]Cell, land.height*land.length)
 	for i := 0; i < land.height*land.length; i++ {
